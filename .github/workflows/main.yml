@@ -25,7 +25,7 @@ jobs:
     - name: Deploy to Kubernetes
       uses: appleboy/ssh-action@v1
       with:
-        host: ${{ secrets.EC2_HOST }}
+        host: ${{ 65.0.106.138 }}
         username: ec2-user
         key: ${{ secrets.EC2_KEY }}
         script: |
